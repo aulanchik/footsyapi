@@ -28,8 +28,4 @@ public class Detail extends BaseEntity {
     @UpdateTimestamp
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedAt;
-
-    public Detail(Date createdAt) {
-        this.createdAt = createdAt;
-    }
 }
